@@ -6,7 +6,7 @@ import * as THREE from "three";
 export const Background = () => {
   return (
     <>
-      <Environment  files="../../public/img/sky.hdr"
+      <Environment  files="/img/sky.hdr"
         background
         backgroundBlurriness={0.5} />
       <Sphere scale={[100, 100, 100]} rotation-y={Math.PI / 2}>
